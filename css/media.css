@@ -1,0 +1,89 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.sell_right .button {
+		margin: 15px auto;
+		float: none;
+	}
+
+	.sell_descr {
+		text-align: center;
+	}
+
+
+	.top_menu ul {
+		display: none;
+		background-color: #2dc8c2;
+		margin: 0;
+    	z-index: 999;
+    	position: absolute;
+    	width: 96%;
+    	text-align: center;
+   	 	top: 100%;
+    	left: 2%;
+	}
+
+	.top_menu ul li {
+		display: block;
+
+	}
+	
+	.menu_button {
+		display: inline;
+		float: right;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.top_menu ul {
+		display: block !important;
+	}
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
